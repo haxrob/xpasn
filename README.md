@@ -1,7 +1,7 @@
 # xpasn
-Expands an autonomous system (AS) number to it's prefixes or individual IP addresses.
+Expands an autonomous system (AS) number to it's prefixes/networks or individual IP addresses.
 
-The main intention of the tool is to use it to chain into other tools that accept hosts via standard input, such as [httprobe](https://github.com/tomnomnom/httprobe) or vulnerability scanners.
+Useful to chain into other tools that accept hosts via standard input, such as [httprobe](https://github.com/tomnomnom/httprobe) or vulnerability scanners.
 
 # Installation
 
