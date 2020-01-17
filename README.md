@@ -31,7 +31,7 @@ $ xpasn -e AS394161
 8.45.124.3
 ...
 ```
-Example using httprobe:
+Example scanning for Citrix CVE-2019-19781 with [citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner/)
 ```
-$ xpasn -e AS394161 | httprobe 
+$ xpasn AS394161 | ./citrixmash_scanner
 ```
